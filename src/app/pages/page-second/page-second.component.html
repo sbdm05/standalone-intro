@@ -1,0 +1,5 @@
+<ng-container *ngIf="datas$ | async as datas">
+
+  <p *ngFor='let i of datas'>{{i.title}}</p>
+
+</ng-container>
